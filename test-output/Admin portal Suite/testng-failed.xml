@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Admin portal Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="Test Admin portal(failed)">
+    <classes>
+      <class name="Evzin_Manos.RPM.AddProviderUser">
+        <methods>
+          <include name="teardown"/>
+          <include name="Addbutton"/>
+          <include name="testlogin"/>
+          <include name="ClickProviders"/>
+          <include name="setup"/>
+          <include name="ClickHospital"/>
+          <include name="testlogout"/>
+        </methods>
+      </class> <!-- Evzin_Manos.RPM.AddProviderUser -->
+      <class name="Evzin_Manos.RPM.AddProviderGroup">
+        <methods>
+          <include name="teardown"/>
+          <include name="Addbutton"/>
+          <include name="testlogin"/>
+          <include name="setup"/>
+          <include name="testlogout"/>
+        </methods>
+      </class> <!-- Evzin_Manos.RPM.AddProviderGroup -->
+      <class name="Evzin_Manos.RPM.Authentication">
+        <methods>
+          <include name="teardown"/>
+          <include name="testlogin"/>
+          <include name="setup"/>
+          <include name="testlogout"/>
+        </methods>
+      </class> <!-- Evzin_Manos.RPM.Authentication -->
+    </classes>
+  </test> <!-- Test Admin portal(failed) -->
+</suite> <!-- Failed suite [Admin portal Suite] -->

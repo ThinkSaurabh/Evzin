@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Admin portal Suite" verbose="1" parallel="false" thread-count="1">
+    
+     <test name="Test Admin portal">
+        <classes>
+			<class name="Evzin_Manos.RPM.BaseTest"/>
+            <class name="Evzin_Manos.RPM.Authentication"/>
+            <class name="Evzin_Manos.RPM.AddProviderGroup"/>
+            <class name="Evzin_Manos.RPM.AddProviderUser"/>
+        </classes>
+    </test>
+    
+</suite>

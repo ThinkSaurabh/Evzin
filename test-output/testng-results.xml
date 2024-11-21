@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-19T19:31:25 IST" name="Default suite" finished-at="2024-11-19T19:31:30 IST" duration-ms="5264">
+    <groups>
+    </groups>
+    <test started-at="2024-11-19T19:31:25 IST" name="Default test" finished-at="2024-11-19T19:31:30 IST" duration-ms="5264">
+      <class name="Evzin_AdminPortal.RPM.AddDevice">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Evzin_AdminPortal.RPM.AddDevice@18df8434]" started-at="2024-11-19T19:31:22 IST" name="setup" finished-at="2024-11-19T19:31:25 IST" duration-ms="2710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpLogin()[pri:0, instance:Evzin_AdminPortal.RPM.AddDevice@18df8434]" started-at="2024-11-19T19:31:25 IST" name="setUpLogin" finished-at="2024-11-19T19:31:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogin -->
+        <test-method signature="testlogin()[pri:1, instance:Evzin_AdminPortal.RPM.AddDevice@18df8434]" started-at="2024-11-19T19:31:25 IST" name="testlogin" finished-at="2024-11-19T19:31:25 IST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method signature="ClickHospital()[pri:3, instance:Evzin_AdminPortal.RPM.AddDevice@18df8434]" started-at="2024-11-19T19:31:25 IST" name="ClickHospital" finished-at="2024-11-19T19:31:27 IST" duration-ms="2313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickHospital -->
+        <test-method is-config="true" signature="setUpLogin()[pri:0, instance:Evzin_AdminPortal.RPM.AddDevice@18df8434]" started-at="2024-11-19T19:31:25 IST" name="setUpLogin" finished-at="2024-11-19T19:31:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogin -->
+        <test-method signature="ClickDevice()[pri:4, instance:Evzin_AdminPortal.RPM.AddDevice@18df8434]" started-at="2024-11-19T19:31:27 IST" name="ClickDevice" finished-at="2024-11-19T19:31:28 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickDevice -->
+        <test-method is-config="true" signature="setUpLogin()[pri:0, instance:Evzin_AdminPortal.RPM.AddDevice@18df8434]" started-at="2024-11-19T19:31:27 IST" name="setUpLogin" finished-at="2024-11-19T19:31:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogin -->
+        <test-method is-config="true" signature="setUpLogin()[pri:0, instance:Evzin_AdminPortal.RPM.AddDevice@18df8434]" started-at="2024-11-19T19:31:28 IST" name="setUpLogin" finished-at="2024-11-19T19:31:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogin -->
+        <test-method signature="AddDevicebutton()[pri:5, instance:Evzin_AdminPortal.RPM.AddDevice@18df8434]" started-at="2024-11-19T19:31:28 IST" name="AddDevicebutton" finished-at="2024-11-19T19:31:28 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddDevicebutton -->
+        <test-method signature="Adddeviceform()[pri:6, instance:Evzin_AdminPortal.RPM.AddDevice@18df8434]" started-at="2024-11-19T19:31:28 IST" name="Adddeviceform" finished-at="2024-11-19T19:31:29 IST" duration-ms="995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adddeviceform -->
+        <test-method is-config="true" signature="setUpLogin()[pri:0, instance:Evzin_AdminPortal.RPM.AddDevice@18df8434]" started-at="2024-11-19T19:31:28 IST" name="setUpLogin" finished-at="2024-11-19T19:31:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogin -->
+        <test-method signature="testlogout()[pri:7, instance:Evzin_AdminPortal.RPM.AddDevice@18df8434]" started-at="2024-11-19T19:31:29 IST" name="testlogout" finished-at="2024-11-19T19:31:30 IST" duration-ms="862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogout -->
+        <test-method is-config="true" signature="setUpLogin()[pri:0, instance:Evzin_AdminPortal.RPM.AddDevice@18df8434]" started-at="2024-11-19T19:31:29 IST" name="setUpLogin" finished-at="2024-11-19T19:31:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Evzin_AdminPortal.RPM.AddDevice@18df8434]" started-at="2024-11-19T19:31:30 IST" name="teardown" finished-at="2024-11-19T19:31:30 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Evzin_AdminPortal.RPM.AddDevice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
